@@ -1,0 +1,34 @@
+# datasets
+*.csv
+*.sqlite
+
+# DBT logs
+dbt.log.legacy
+*target/
+
+# File system
+.DS_Store
+
+# packages
+__pycache__/
+*.ipynb_checkpoints
+*.egg-info/
+.pytest_cache
+*.vscode/*
+
+#virtual env
+.venv/
+.python-version
+
+#env files
+.env
+.vscode/
+*.log
+
+**/data/db/*
+
+# DBT un necessary files
+dbt_*/target/
+dbt_*/dbt_modules/
+dbt_*/dbt_packages/
+dbt_*/logs/
